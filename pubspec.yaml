@@ -1,0 +1,54 @@
+name: orbit
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc:
+  equatable:
+  freezed_annotation:
+  dio:
+  retrofit:
+  pretty_dio_logger:
+  json_annotation:
+  shared_preferences:
+  connectivity_plus:
+  cached_network_image:
+  flutter_screenutil:
+  flutter_svg:
+  shimmer_animation:
+  flutter_dotenv:
+  intl:
+  google_fonts:
+  go_router:
+  get_it:
+  permission_handler:
+  sqflite:
+  path:
+  dartz:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner:
+  freezed:
+  json_serializable:
+  retrofit_generator:
+  mocktail:
+  bloc_test:
+  intl_utils:
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - lib/l10n/
