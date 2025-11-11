@@ -45,5 +45,45 @@
   "errorInvalidWeight": "الرجاء إدخال وزن صحيح",
   "errorInvalidHeight": "الرجاء إدخال طول صحيح",
   "errorRequiredField": "هذا الحقل مطلوب",
-  "welcomeBack": "مرحبًا بعودتك،"
+  "welcomeBack": "مرحبًا بعودتك،",
+  "dashboard": "لوحة التحكم",
+  "work": "العمل",
+  "health": "الصحة",
+  "mental": "العقل",
+  "hobbies": "الهوايات",
+  "dashboardTitle": "لوحة التحكم",
+  "dashboardSubtitle": "نظرة عامة على يومك",
+  "workTitle": "العمل",
+  "workSubtitle": "إدارة إنتاجيتك",
+  "healthTitle": "الصحة",
+  "healthSubtitle": "تتبع صحتك البدنية",
+  "mentalTitle": "العقل",
+  "mentalSubtitle": "الصحة العقلية والعاطفية",
+  "hobbiesTitle": "الهوايات",
+  "hobbiesSubtitle": "استمتع بشغفك",
+  "welcomeBackWarrior": "مرحبًا بعودتك، أيها المحارب!",
+  "welcomeBackUser": "مرحبًا بعودتك، {name}!",
+  "@welcomeBackUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "motivationalQuote1": "كل خطوة للأمام هي تقدم.",
+  "motivationalQuote2": "رحلتك نحو العافية تبدأ الآن.",
+  "motivationalQuote3": "الخطوات الصغيرة تؤدي إلى تغييرات كبيرة.",
+  "motivationalQuote4": "أنت أقوى مما تعتقد.",
+  "motivationalQuote5": "آمن بنفسك واتخذ إجراءً.",
+  "notifications": "الإشعارات",
+  "menu": "القائمة",
+  "todayProgress": "تقدم اليوم",
+  "workProgress": "مهام العمل",
+  "healthProgress": "الصحة البدنية",
+  "mentalProgress": "الصحة النفسية",
+  "hobbiesProgress": "وقت الترفيه",
+  "tasksCompleted": "{completed} من {total} مهمة",
+  "minutesActive": "{minutes} دقيقة نشطة",
+  "sessionsCompleted": "{sessions} جلسة",
+  "hoursSpent": "{hours} ساعة"
 }

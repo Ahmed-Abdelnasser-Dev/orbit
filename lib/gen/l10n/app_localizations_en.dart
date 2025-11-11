@@ -148,4 +148,113 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get welcomeBack => 'Welcome back,';
+
+  @override
+  String get dashboard => 'Dashboard';
+
+  @override
+  String get work => 'Work';
+
+  @override
+  String get health => 'Health';
+
+  @override
+  String get mental => 'Mental';
+
+  @override
+  String get hobbies => 'Hobbies';
+
+  @override
+  String get dashboardTitle => 'Dashboard';
+
+  @override
+  String get dashboardSubtitle => 'Your daily overview';
+
+  @override
+  String get workTitle => 'Work';
+
+  @override
+  String get workSubtitle => 'Manage your productivity';
+
+  @override
+  String get healthTitle => 'Health';
+
+  @override
+  String get healthSubtitle => 'Track your physical wellness';
+
+  @override
+  String get mentalTitle => 'Mental';
+
+  @override
+  String get mentalSubtitle => 'Mindfulness and emotional health';
+
+  @override
+  String get hobbiesTitle => 'Hobbies';
+
+  @override
+  String get hobbiesSubtitle => 'Enjoy your passions';
+
+  @override
+  String get welcomeBackWarrior => 'Welcome back, Warrior!';
+
+  @override
+  String welcomeBackUser(String name) {
+    return 'Welcome back, $name!';
+  }
+
+  @override
+  String get motivationalQuote1 => 'Every step forward is progress.';
+
+  @override
+  String get motivationalQuote2 => 'Your journey to wellness starts now.';
+
+  @override
+  String get motivationalQuote3 => 'Small steps lead to big changes.';
+
+  @override
+  String get motivationalQuote4 => 'You\'re stronger than you think.';
+
+  @override
+  String get motivationalQuote5 => 'Believe in yourself and take action.';
+
+  @override
+  String get notifications => 'Notifications';
+
+  @override
+  String get menu => 'Menu';
+
+  @override
+  String get todayProgress => 'Today\'s Progress';
+
+  @override
+  String get workProgress => 'Work Tasks';
+
+  @override
+  String get healthProgress => 'Physical Health';
+
+  @override
+  String get mentalProgress => 'Mental Wellness';
+
+  @override
+  String get hobbiesProgress => 'Leisure Time';
+
+  @override
+  String tasksCompleted(int completed, int total) {
+    return '$completed of $total tasks';
+  }
+
+  @override
+  String minutesActive(int minutes) {
+    return '$minutes min active';
+  }
+
+  @override
+  String sessionsCompleted(int sessions) {
+    return '$sessions sessions';
+  }
+
+  @override
+  String hoursSpent(int hours) {
+    return '${hours}h spent';
+  }
 }

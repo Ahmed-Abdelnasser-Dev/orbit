@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../features/home/presentation/screens/home_screen.dart';
+import '../navigation/presentation/widgets/navigation_shell.dart';
 import '../../features/onboarding/presentation/screens/onboarding_flow_screen.dart';
 import '../../features/onboarding/domain/repositories/onboarding_repository.dart';
 import '../dependency_injection/di_container.dart';
@@ -36,7 +36,7 @@ class AppRouter {
               path: '/',
               name: 'home',
               pageBuilder: (context, state) => const MaterialPage(
-                child: HomeScreen(),
+                child: NavigationShell(),
               ),
             ),
             GoRoute(

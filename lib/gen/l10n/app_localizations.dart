@@ -373,6 +373,204 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Welcome back,'**
   String get welcomeBack;
+
+  /// No description provided for @dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Dashboard'**
+  String get dashboard;
+
+  /// No description provided for @work.
+  ///
+  /// In en, this message translates to:
+  /// **'Work'**
+  String get work;
+
+  /// No description provided for @health.
+  ///
+  /// In en, this message translates to:
+  /// **'Health'**
+  String get health;
+
+  /// No description provided for @mental.
+  ///
+  /// In en, this message translates to:
+  /// **'Mental'**
+  String get mental;
+
+  /// No description provided for @hobbies.
+  ///
+  /// In en, this message translates to:
+  /// **'Hobbies'**
+  String get hobbies;
+
+  /// No description provided for @dashboardTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Dashboard'**
+  String get dashboardTitle;
+
+  /// No description provided for @dashboardSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your daily overview'**
+  String get dashboardSubtitle;
+
+  /// No description provided for @workTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Work'**
+  String get workTitle;
+
+  /// No description provided for @workSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage your productivity'**
+  String get workSubtitle;
+
+  /// No description provided for @healthTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Health'**
+  String get healthTitle;
+
+  /// No description provided for @healthSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your physical wellness'**
+  String get healthSubtitle;
+
+  /// No description provided for @mentalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Mental'**
+  String get mentalTitle;
+
+  /// No description provided for @mentalSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Mindfulness and emotional health'**
+  String get mentalSubtitle;
+
+  /// No description provided for @hobbiesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Hobbies'**
+  String get hobbiesTitle;
+
+  /// No description provided for @hobbiesSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Enjoy your passions'**
+  String get hobbiesSubtitle;
+
+  /// No description provided for @welcomeBackWarrior.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back, Warrior!'**
+  String get welcomeBackWarrior;
+
+  /// No description provided for @welcomeBackUser.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back, {name}!'**
+  String welcomeBackUser(String name);
+
+  /// No description provided for @motivationalQuote1.
+  ///
+  /// In en, this message translates to:
+  /// **'Every step forward is progress.'**
+  String get motivationalQuote1;
+
+  /// No description provided for @motivationalQuote2.
+  ///
+  /// In en, this message translates to:
+  /// **'Your journey to wellness starts now.'**
+  String get motivationalQuote2;
+
+  /// No description provided for @motivationalQuote3.
+  ///
+  /// In en, this message translates to:
+  /// **'Small steps lead to big changes.'**
+  String get motivationalQuote3;
+
+  /// No description provided for @motivationalQuote4.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re stronger than you think.'**
+  String get motivationalQuote4;
+
+  /// No description provided for @motivationalQuote5.
+  ///
+  /// In en, this message translates to:
+  /// **'Believe in yourself and take action.'**
+  String get motivationalQuote5;
+
+  /// No description provided for @notifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get notifications;
+
+  /// No description provided for @menu.
+  ///
+  /// In en, this message translates to:
+  /// **'Menu'**
+  String get menu;
+
+  /// No description provided for @todayProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Today\'s Progress'**
+  String get todayProgress;
+
+  /// No description provided for @workProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Work Tasks'**
+  String get workProgress;
+
+  /// No description provided for @healthProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Physical Health'**
+  String get healthProgress;
+
+  /// No description provided for @mentalProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Mental Wellness'**
+  String get mentalProgress;
+
+  /// No description provided for @hobbiesProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Leisure Time'**
+  String get hobbiesProgress;
+
+  /// No description provided for @tasksCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'{completed} of {total} tasks'**
+  String tasksCompleted(int completed, int total);
+
+  /// No description provided for @minutesActive.
+  ///
+  /// In en, this message translates to:
+  /// **'{minutes} min active'**
+  String minutesActive(int minutes);
+
+  /// No description provided for @sessionsCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'{sessions} sessions'**
+  String sessionsCompleted(int sessions);
+
+  /// No description provided for @hoursSpent.
+  ///
+  /// In en, this message translates to:
+  /// **'{hours}h spent'**
+  String hoursSpent(int hours);
 }
 
 class _AppLocalizationsDelegate

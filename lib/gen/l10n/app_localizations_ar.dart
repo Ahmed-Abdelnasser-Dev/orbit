@@ -147,4 +147,113 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get welcomeBack => 'مرحبًا بعودتك،';
+
+  @override
+  String get dashboard => 'لوحة التحكم';
+
+  @override
+  String get work => 'العمل';
+
+  @override
+  String get health => 'الصحة';
+
+  @override
+  String get mental => 'العقل';
+
+  @override
+  String get hobbies => 'الهوايات';
+
+  @override
+  String get dashboardTitle => 'لوحة التحكم';
+
+  @override
+  String get dashboardSubtitle => 'نظرة عامة على يومك';
+
+  @override
+  String get workTitle => 'العمل';
+
+  @override
+  String get workSubtitle => 'إدارة إنتاجيتك';
+
+  @override
+  String get healthTitle => 'الصحة';
+
+  @override
+  String get healthSubtitle => 'تتبع صحتك البدنية';
+
+  @override
+  String get mentalTitle => 'العقل';
+
+  @override
+  String get mentalSubtitle => 'الصحة العقلية والعاطفية';
+
+  @override
+  String get hobbiesTitle => 'الهوايات';
+
+  @override
+  String get hobbiesSubtitle => 'استمتع بشغفك';
+
+  @override
+  String get welcomeBackWarrior => 'مرحبًا بعودتك، أيها المحارب!';
+
+  @override
+  String welcomeBackUser(String name) {
+    return 'مرحبًا بعودتك، $name!';
+  }
+
+  @override
+  String get motivationalQuote1 => 'كل خطوة للأمام هي تقدم.';
+
+  @override
+  String get motivationalQuote2 => 'رحلتك نحو العافية تبدأ الآن.';
+
+  @override
+  String get motivationalQuote3 => 'الخطوات الصغيرة تؤدي إلى تغييرات كبيرة.';
+
+  @override
+  String get motivationalQuote4 => 'أنت أقوى مما تعتقد.';
+
+  @override
+  String get motivationalQuote5 => 'آمن بنفسك واتخذ إجراءً.';
+
+  @override
+  String get notifications => 'الإشعارات';
+
+  @override
+  String get menu => 'القائمة';
+
+  @override
+  String get todayProgress => 'تقدم اليوم';
+
+  @override
+  String get workProgress => 'مهام العمل';
+
+  @override
+  String get healthProgress => 'الصحة البدنية';
+
+  @override
+  String get mentalProgress => 'الصحة النفسية';
+
+  @override
+  String get hobbiesProgress => 'وقت الترفيه';
+
+  @override
+  String tasksCompleted(int completed, int total) {
+    return '$completed من $total مهمة';
+  }
+
+  @override
+  String minutesActive(int minutes) {
+    return '$minutes دقيقة نشطة';
+  }
+
+  @override
+  String sessionsCompleted(int sessions) {
+    return '$sessions جلسة';
+  }
+
+  @override
+  String hoursSpent(int hours) {
+    return '$hours ساعة';
+  }
 }

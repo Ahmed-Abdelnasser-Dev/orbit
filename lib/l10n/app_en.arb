@@ -45,5 +45,76 @@
   "errorInvalidWeight": "Please enter a valid weight",
   "errorInvalidHeight": "Please enter a valid height",
   "errorRequiredField": "This field is required",
-  "welcomeBack": "Welcome back,"
+  "welcomeBack": "Welcome back,",
+  "dashboard": "Dashboard",
+  "work": "Work",
+  "health": "Health",
+  "mental": "Mental",
+  "hobbies": "Hobbies",
+  "dashboardTitle": "Dashboard",
+  "dashboardSubtitle": "Your daily overview",
+  "workTitle": "Work",
+  "workSubtitle": "Manage your productivity",
+  "healthTitle": "Health",
+  "healthSubtitle": "Track your physical wellness",
+  "mentalTitle": "Mental",
+  "mentalSubtitle": "Mindfulness and emotional health",
+  "hobbiesTitle": "Hobbies",
+  "hobbiesSubtitle": "Enjoy your passions",
+  "welcomeBackWarrior": "Welcome back, Warrior!",
+  "welcomeBackUser": "Welcome back, {name}!",
+  "@welcomeBackUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "motivationalQuote1": "Every step forward is progress.",
+  "motivationalQuote2": "Your journey to wellness starts now.",
+  "motivationalQuote3": "Small steps lead to big changes.",
+  "motivationalQuote4": "You're stronger than you think.",
+  "motivationalQuote5": "Believe in yourself and take action.",
+  "notifications": "Notifications",
+  "menu": "Menu",
+  "todayProgress": "Today's Progress",
+  "workProgress": "Work Tasks",
+  "healthProgress": "Physical Health",
+  "mentalProgress": "Mental Wellness",
+  "hobbiesProgress": "Leisure Time",
+  "tasksCompleted": "{completed} of {total} tasks",
+  "@tasksCompleted": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "minutesActive": "{minutes} min active",
+  "@minutesActive": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "sessionsCompleted": "{sessions} sessions",
+  "@sessionsCompleted": {
+    "placeholders": {
+      "sessions": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursSpent": "{hours}h spent",
+  "@hoursSpent": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  }
 }

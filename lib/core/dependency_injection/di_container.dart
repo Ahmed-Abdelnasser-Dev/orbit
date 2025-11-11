@@ -2,6 +2,7 @@ import 'package:get_it/get_it.dart';
 import 'package:orbit/core/router/app_router.dart';
 import 'package:orbit/core/services/database_service.dart';
 import 'package:orbit/core/services/notification_service.dart';
+import 'package:orbit/core/navigation/presentation/bloc/navigation_bloc.dart';
 import 'package:orbit/features/user/data/sources/user_local_data_source.dart';
 import 'package:orbit/features/user/data/repositories/user_repository_impl.dart';
 import 'package:orbit/features/user/domain/repositories/user_repository.dart';
@@ -23,6 +24,9 @@ Future<void> configureDependencies() async {
 
   // Router
   di.registerLazySingleton<AppRouter>(() => AppRouter());
+
+  // Navigation
+  di.registerFactory<NavigationBloc>(() => NavigationBloc());
 
   // User feature
   di.registerLazySingleton<UserLocalDataSource>(
